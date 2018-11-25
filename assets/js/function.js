@@ -1,7 +1,8 @@
 new Vue({
     el: '#app',
     data: {
-        peso: ''
+        peso: null,
+        see: false
     },
     computed: {
         calcularPesoTierra: function() {
@@ -57,6 +58,15 @@ new Vue({
             let peso = masa * 0.81
             let conversion = peso * 0.102
             return conversion.toFixed(2)
+        }
+    },
+    methods: {
+        mostrarResultado: function() {
+            if(this.peso == '') {
+                this.see = false    
+            } else {
+                this.see = true    
+            }                        
         }
     }
 })
