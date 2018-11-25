@@ -7,47 +7,56 @@ new Vue({
             {
                 name: 'Mercurio',
                 description: 'Es el planeta del sistema solar más cercano al Sol y el más pequeño.',
-                link: 'https://es.wikipedia.org/wiki/Mercurio_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Mercurio_(planeta)',
+                image: 'assets/images/mercurio.jpg'
             },
             {
                 name: 'Venus',
                 description: 'Es el segundo planeta del sistema solar cercano al Sol y el sexto más grande.',
-                link: 'https://es.wikipedia.org/wiki/Venus_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Venus_(planeta)',
+                image: 'assets/images/venus.jpg'
             },
             {
                 name: 'Tierra',
                 description: 'Es el tercer planeta del sistema solar cercano al Sol y el quinto más grande.',
-                link: 'https://es.wikipedia.org/wiki/Tierra'
+                link: 'https://es.wikipedia.org/wiki/Tierra',
+                image: 'assets/images/tierra.jpg'
             },
             {
                 name: 'Marte',
                 description: 'Es el cuarto planeta del sistema solar cercano al Sol y el segundo más pequeño.',
-                link: 'https://es.wikipedia.org/wiki/Marte_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Marte_(planeta)',
+                image: 'assets/images/marte.jpg'
             },
             {
                 name: 'Júpiter',
                 description: 'Es el quinto planeta del sistema solar cercano al Sol y el más grande.',
-                link: 'https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)',
+                image: 'assets/images/jupiter.jpg'
             },
             {
                 name: 'Saturno',
                 description: 'Es el sexto planeta del sistema solar cercano al Sol y el segundo más grande.',
-                link: 'https://es.wikipedia.org/wiki/Saturno_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Saturno_(planeta)',
+                image: 'assets/images/saturno.jpg'
             },
             {
                 name: 'Urano',
                 description: 'Es el séptimo planeta del sistema solar cercano al Sol y el tercero más grande.',
-                link: 'https://es.wikipedia.org/wiki/Urano_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Urano_(planeta)',
+                image: 'assets/images/urano.jpg'
             },
             {
                 name: 'Neptuno',
                 description: 'Es el octavo planeta del sistema solar en distancia al sol y el más lejano.',
-                link: 'https://es.wikipedia.org/wiki/Neptuno_(planeta)'
+                link: 'https://es.wikipedia.org/wiki/Neptuno_(planeta)',
+                image: 'assets/images/neptuno.jpg'
             },
             {
                 name: 'Plutón',
                 description: 'Es un planeta enano del sistema solar situado a continuación de la órbita de Neptuno.',
-                link: 'https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)'
+                link: 'https://es.wikipedia.org/wiki/Plut%C3%B3n_(planeta_enano)',
+                image: 'assets/images/pluton.jpg'
             }
         ]
     },
