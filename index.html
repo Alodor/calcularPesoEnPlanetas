@@ -18,27 +18,28 @@
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Escribe tu peso aquí" v-model="peso" @keyup="mostrarResultado">
+                        <input type="text" class="form-control" placeholder="Escribe tu peso aquí" v-model="peso" @keyUp="calcularPeso">
                     </div>
                 </div>
             </div>
 
             <!-- View Result -->
             <div class="row">
-                <div v-if="see">
-                    <div v-for="planet in planets">
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <img class="card-img-top" :src="planet.image" :alt="planet.name">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{ planet.name }}</h4>
-                                    <p class="card-text">{{ planet.description }}</p>
-                                    <a :href="planet.link" target="_blank" class="btn btn-primary">Saber más</a>
-                                </div>
+                <div v-for="planet in planets">
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img class="card-img" :src="planet.image" :alt="planet.name">
+                            <div class="card-body">
+                                <h3 class="card-title">{{ planet.name }}</h3>
+                                <div v-if="see">
+                                    <h4 class="card-subtitle">Tu peso: <span>{{ calcularPeso(planet.gravity) }}</span> Kg</h4>
+                                </div>                                
+                                <p class="card-text">{{ planet.description }}</p>
+                                <a :href="planet.link" target="_blank" class="btn btn-primary">Saber más</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
             </div>
         </main>
 
